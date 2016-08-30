@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by Jakob Pennington -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context="com.jakob.tonsleymaps.SearchFragment">
+
+    <include
+        android:id="@+id/search_app_bar"
+        layout="@layout/search_app_bar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_recycler_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+</LinearLayout>

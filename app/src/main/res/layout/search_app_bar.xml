@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by Jakob Pennington -->
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_color"
+    android:elevation="4dp">
+
+    <ImageView
+        android:id="@+id/search_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+        android:tint="#000"/>
+
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_bar"
+        app:queryHint="@string/search_hint"
+        app:iconifiedByDefault="false"
+        android:paddingLeft="0dp" />
+
+</android.support.v7.widget.Toolbar>
